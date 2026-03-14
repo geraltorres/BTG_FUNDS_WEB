@@ -40,12 +40,12 @@ El proyecto fue desarrollado aplicando:
 
 [Escalabilidad](#escalabilidad)
 
-[Decisiones técnicas](#decisiones-t--cnicas)
+[Decisiones técnicas](#decisiones-tecnicas)
 
 [Screenshots](#screenshots)
 
 ---
-Demo
+#Demo
 
 Saldo inicial del usuario:
 
