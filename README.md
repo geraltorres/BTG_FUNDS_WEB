@@ -22,7 +22,7 @@ El proyecto fue desarrollado aplicando:
 
 [Introduction](#arquitectura)
 
-[Diagrama de arquitectura](#diagrama-de-arquitectura)
+[Arquitectura](#arquitectura)
 
 [Dominio](#dominio)
 
@@ -40,7 +40,7 @@ El proyecto fue desarrollado aplicando:
 
 [Escalabilidad](#escalabilidad)
 
-[Decisiones técnicas](#decisiones-tecnicas)
+[Decisiones técnicas](#decisiones-t--cnicas)
 
 [Screenshots](#screenshots)
 
