@@ -16,33 +16,33 @@ El proyecto fue desarrollado aplicando:
 
 # Tabla de contenidos
 
-[Demo] #Demo
+[Demo](#demo)
 
-[Objetivo] #Objetivo
+[Objetivo](#objetivo)
 
-[Introduction] #Arquitectura
+[Introduction](#arquitectura)
 
-[Diagrama de arquitectura] #Diagrama de arquitectura
+[Diagrama de arquitectura](#diagrama-de-arquitectura)
 
-[Dominio] #Dominio
+[Dominio](#dominio)
 
-[Navegación] #Navegación
+[Navegación](#navegación)
 
-[UI y Diseño] #UI y Diseño
+[UI y Diseño](#ui-y-diseño)
 
-[Dashboard] #Dashboard
+[Dashboard](#dashboard)
 
-[Fuente de datos] #Fuente de datos
+[Fuente de datos](#fuente-de-datos)
 
-[Testing] #Testing
+[Testing](#testing)
 
-[Instalación] #Instalación
+[Instalación](#instalación)
 
-[Escalabilidad] #Escalabilidad
+[Escalabilidad](#escalabilidad)
 
-[Decisiones técnicas] #Decisiones técnicas
+[Decisiones técnicas](#decisiones-t--cnicas)
 
-[Screenshots] #Screenshots
+[Screenshots](#screenshots)
 
 ---
 Demo
@@ -418,7 +418,7 @@ Estos tests verifican:
 
 - Interacción de usuario
 
-# Cómo ejecutar
+# Instalación
 
 ## Clonar repositorio:
 
