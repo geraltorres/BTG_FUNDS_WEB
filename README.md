@@ -118,7 +118,7 @@ lib
 
 # Diagrama de arquitectura
 
-```
+```mermaid
 flowchart TD
 
 UI[Flutter UI]
@@ -177,7 +177,8 @@ saldo disponible
 suscripción duplicada
 
 ## Cancelación de suscripción
-```
+
+```mermaid
 flowchart LR
 
 User[Usuario]
@@ -326,7 +327,7 @@ assets/data/funds.json
 ``
 
 Ejemplo:
-```
+```json
 {
   "funds": [
     {
