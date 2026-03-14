@@ -16,33 +16,33 @@ El proyecto fue desarrollado aplicando:
 
 # Tabla de contenidos
 
-Demo
+[Demo] #Demo
 
-Objetivo
+[Objetivo] #Objetivo
 
-Arquitectura
+[Introduction] #Arquitectura
 
-Diagrama de arquitectura
+[Diagrama de arquitectura] #Diagrama de arquitectura
 
-Dominio
+[Dominio] #Dominio
 
-Navegación
+[Navegación] #Navegación
 
-UI y Diseño
+[UI y Diseño] #UI y Diseño
 
-Dashboard
+[Dashboard] #Dashboard
 
-Fuente de datos
+[Fuente de datos] #Fuente de datos
 
-Testing
+[Testing] #Testing
 
-Instalación
+[Instalación] #Instalación
 
-Escalabilidad
+[Escalabilidad] #Escalabilidad
 
-Decisiones técnicas
+[Decisiones técnicas] #Decisiones técnicas
 
-Screenshots
+[Screenshots] #Screenshots
 
 ---
 Demo
@@ -118,7 +118,7 @@ lib
 
 # Diagrama de arquitectura
 
-
+```
 flowchart TD
 
 UI[Flutter UI]
@@ -135,7 +135,7 @@ UseCase --> Repository
 Repository --> Datasource
 Datasource --> MockAPI
 MockAPI --> JSON
-
+```
 ---
 
 ## Modelo del dominio
@@ -177,7 +177,7 @@ saldo disponible
 suscripción duplicada
 
 ## Cancelación de suscripción
-
+```
 flowchart LR
 
 User[Usuario]
@@ -190,6 +190,8 @@ User --> Cancel
 Cancel --> Find
 Find --> Restore
 Restore --> Register
+```
+---
 
 # Navegación
 
@@ -438,7 +440,7 @@ flutter test flutter test--coverage
 
 # Screenshots
 ## Dashboard
-![Dashboard Light](docs/screenshots/ihome_light.png)
+![Dashboard Light](docs/screenshots/home_light.png)
 ![Dashboard Dark](docs/screenshots/home_dark.png)
 
 ## Suscripción
