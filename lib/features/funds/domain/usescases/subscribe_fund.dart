@@ -1,4 +1,4 @@
-import '../repositories/fund_repository.dart';
+import 'package:btg_funds_web/features/funds/domain/repositories/fund_repository.dart';
 
 class SubscribeFund {
   final FundRepository repository;

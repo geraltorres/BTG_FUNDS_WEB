@@ -1,5 +1,5 @@
-import '../entities/transaction.dart';
-import '../repositories/fund_repository.dart';
+import 'package:btg_funds_web/features/funds/domain/entities/transaction.dart';
+import 'package:btg_funds_web/features/funds/domain/repositories/fund_repository.dart';
 
 class GetTransactions {
   final FundRepository repository;

@@ -1,11 +1,8 @@
 import 'package:btg_funds_web/core/router/app_routes.dart';
 import 'package:btg_funds_web/core/utils/currency_formatter.dart';
+import 'package:btg_funds_web/features/funds/presentation/bloc/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../bloc/fund_bloc.dart';
-import '../bloc/fund_event.dart';
-import '../bloc/fund_state.dart';
 
 class CancelSubscriptionPage extends StatelessWidget {
   const CancelSubscriptionPage({super.key});

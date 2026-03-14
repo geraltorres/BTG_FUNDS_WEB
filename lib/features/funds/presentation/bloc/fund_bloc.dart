@@ -1,8 +1,7 @@
+import 'package:btg_funds_web/core/bloc/base_bloc.dart';
+import 'package:btg_funds_web/features/funds/domain/entities/transaction.dart';
 import 'package:btg_funds_web/features/funds/domain/usescases/get_funds.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../../core/bloc/base_bloc.dart';
-import '../../domain/entities/transaction.dart';
 
 import 'fund_event.dart';
 import 'fund_state.dart';

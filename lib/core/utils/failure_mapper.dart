@@ -1,4 +1,4 @@
-import '../errors/failures.dart';
+import 'package:btg_funds_web/core/errors/failures.dart';
 
 class FailureMapper {
   FailureMapper._(); // constructor privado

@@ -1,11 +1,9 @@
 import 'package:btg_funds_web/core/utils/currency_formatter.dart';
+import 'package:btg_funds_web/features/funds/domain/entities/fund.dart';
+import 'package:btg_funds_web/features/funds/presentation/bloc/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-
-import '../../domain/entities/fund.dart';
-import '../bloc/fund_bloc.dart';
-import '../bloc/fund_event.dart';
 
 class SubscribePage extends StatefulWidget {
   final Fund fund;

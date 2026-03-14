@@ -2,12 +2,10 @@ import 'package:btg_funds_web/core/router/app_routes.dart';
 import 'package:btg_funds_web/core/theme/app_theme.dart';
 import 'package:btg_funds_web/core/utils/currency_formatter.dart';
 import 'package:btg_funds_web/core/utils/date_formatter.dart';
+import 'package:btg_funds_web/features/funds/presentation/bloc/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-
-import '../bloc/fund_bloc.dart';
-import '../bloc/fund_state.dart';
 
 class HistoryPage extends StatelessWidget {
   const HistoryPage({super.key});
