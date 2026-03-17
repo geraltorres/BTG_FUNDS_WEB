@@ -154,6 +154,7 @@ Este agregado representa el estado completo de inversión del usuario.
 
 ## Suscripción a fondo
 
+```mermaid
 flowchart LR
 
 User[Usuario]
@@ -167,6 +168,7 @@ Home --> Subscribe
 Subscribe --> Validate
 Validate --> Register
 Register --> Home
+```
 
 Validaciones realizadas:
 
@@ -175,6 +177,8 @@ monto mínimo del fondo
 saldo disponible
 
 suscripción duplicada
+
+---
 
 ## Cancelación de suscripción
 
